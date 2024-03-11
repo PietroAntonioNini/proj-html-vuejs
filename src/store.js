@@ -24,6 +24,7 @@ export const store = reactive({
         { name: "Demos" }
     ],
 
+    //array di icone di tutto il sito
     icons: [
         '<i class="fa-brands fa-facebook"></i>',
         '<i class="fa-brands fa-twitter"></i>',
@@ -35,4 +36,6 @@ export const store = reactive({
         '<i class="fa-brands fa-linkedin"></i>',
         '<i class="fa-brands fa-pinterest"></i>'
     ],
+
+    
 });

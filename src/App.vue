@@ -1,15 +1,18 @@
 <script>
-import AppNav from './components/AppNav.vue'
+import { store } from './store';
+import AppNav from './components/AppNav.vue';
+import AppMain from './components/AppMain.vue';
 
 export default {
   data() {
     return {
-      
+      store,
     }
   },
 
   components: {
     AppNav,
+    AppMain,
   },
 
 }
@@ -17,8 +20,11 @@ export default {
 
 <template>
   <AppNav></AppNav>
+
+  <AppMain></AppMain>
 </template>
 
-<style>
+<style lang="scss">
+
 
 </style>
