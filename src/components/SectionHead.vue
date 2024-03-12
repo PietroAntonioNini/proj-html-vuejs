@@ -96,6 +96,8 @@ export default {
         .my_input {
             padding: 10px;
             font-size: 14px;
+            border: 0;
+            background-color: #F0F2F5;
         }
 
         span {
