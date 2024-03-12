@@ -32,3 +32,80 @@
     border: 0;
     background-color: #F0F2F5;
 }
+
+@mixin cards {
+    .badge {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+
+        &.new {
+            background-color: $fifthColor;
+        }
+
+        &.special {
+            background-color: $seventhColor;
+        }
+    }
+
+    .featured {
+        position: absolute;
+        top: 25px;
+        left: -30px;
+
+        padding: 3px 30px;
+
+        transform: rotate(-45deg);
+        font-size: 14px;
+        color: $thirdColor;
+        background-color: $seventhColor;
+    }
+
+    .card {
+        cursor: pointer;
+        overflow: hidden;
+        transition: 0.5s;
+
+        &:hover {
+            transform: scale(1.1);
+            border-left: 1px solid red;
+            border-right: 1px solid red;
+            border-bottom: 1px solid #F09B23;
+        }
+    }
+
+
+    .category {
+        font-size: 14px;
+        color: $fourthColor;
+    }
+
+    .card-title {
+        font-size: 16px;
+        font-weight: 300;
+        color: $firstColor;
+    }
+
+    .duration {
+        font-size: 14px;
+        font-weight: 200;
+        color: $firstColor;
+    }
+
+    .fa-star {
+        color: #EFB467;
+    }
+
+    .original-cost {
+        font-size: 14px;
+        text-decoration: line-through;
+        color: $fourthColor;
+    }
+
+    .cost {
+        font-size: 16px;
+        font-weight: 600;
+        color: $firstColor;
+    }
+}
+

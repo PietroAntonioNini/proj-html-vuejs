@@ -280,6 +280,8 @@ export default {
 @use '../styles/variables' as *;
 @use '../styles/mixins' as *;
 
+@include cards;
+
 #container-center {
     padding: $sectionPadding;
 
@@ -315,77 +317,6 @@ export default {
         }
     }
 
-    .badge {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-
-        &.new {
-            background-color: $fifthColor;
-        }
-
-        &.special {
-            background-color: $seventhColor;
-        }
-    }
-
-    .featured {
-        position: absolute;
-        top: 25px;
-        left: -30px;
-
-        padding: 3px 30px;
-
-        transform: rotate(-45deg);
-        font-size: 14px;
-        color: $thirdColor;
-        background-color: $seventhColor;
-    }
-
-    .card {
-        cursor: pointer;
-        overflow: hidden;
-        transition: 0.5s;
-
-        &:hover {
-            transform: scale(1.1);
-        }
-    }
-
-
-    .category {
-        font-size: 14px;
-        color: $fourthColor;
-    }
-
-    .card-title {
-        font-size: 16px;
-        font-weight: 300;
-        color: $firstColor;
-    }
-
-    .duration {
-        font-size: 14px;
-        font-weight: 200;
-        color: $firstColor;
-    }
-
-    .fa-star {
-        color: #EFB467;
-    }
-
-    .original-cost {
-        font-size: 14px;
-        text-decoration: line-through;
-        color: $fourthColor;
-    }
-
-    .cost {
-        font-size: 16px;
-        font-weight: 600;
-        color: $firstColor;
-    }
-
     .button {
         button {
             @include buttons;
@@ -401,7 +332,7 @@ export default {
 
         position: absolute;
         bottom: 40px;
-        right: 0;
+        right: 4px;
 
         padding: 10px;
 
@@ -410,6 +341,11 @@ export default {
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
         box-shadow: 0 10px 15px rgba(0, 0, 0, 0.299);
+        transition: 0.5s;
+
+        &:hover {
+            transform: scale(1.1);
+        }
 
         i {
             padding: 10px;
@@ -419,7 +355,7 @@ export default {
             transition: 0.5s;
             
             &:hover {
-                transform: scale(1.1);
+                transform: scale(1.2);
                 color: gray;
             }
         }

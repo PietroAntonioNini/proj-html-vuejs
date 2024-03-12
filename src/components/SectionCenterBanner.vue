@@ -181,6 +181,10 @@ export default {
             border:1px solid $secondColor;
             color: $thirdColor;
             background-color: $secondColor;
+
+            &:hover {
+                cursor: pointer;
+            }
         }
     }
 }

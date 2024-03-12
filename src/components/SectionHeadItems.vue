@@ -242,7 +242,7 @@ export default {
 
 //sezione finale banner
 #banner {
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     padding: $sectionPadding;
