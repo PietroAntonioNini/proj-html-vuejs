@@ -193,7 +193,7 @@ export default {
 
 //sezione in cima con l'immagine grande
 #container-body {
-    max-width: $sectionContainer;
+    max-width: 1315px;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -245,9 +245,10 @@ export default {
     max-width: 100vw;
     display: flex;
     align-items: center;
-    padding: 115px;
+    padding: $sectionPadding;
 
     background-image: url(/public/img/Untitled-1-1-1-1-1.png);
+    background-repeat: no-repeat;
 
     .text {
         max-width: 620px;

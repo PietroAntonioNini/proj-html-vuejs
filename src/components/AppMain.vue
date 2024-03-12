@@ -1,6 +1,7 @@
 <script>
 import { store } from '../store';
 import SectionHead from './SectionHead.vue';
+import SectionCenter from './SectionCenter.vue'
 
 export default {
 
@@ -14,6 +15,7 @@ export default {
 
     components: {
         SectionHead,
+        SectionCenter,
     },
 
 }
@@ -21,8 +23,10 @@ export default {
 
 <template>
     <SectionHead></SectionHead>
+
+    <SectionCenter></SectionCenter>
 </template>
 
 <style lang="scss">
 
-</style>./SectionHeadItems.vue
+</style>
