@@ -70,10 +70,11 @@ nav {
             margin-right: 20px;
             
             h2 {
-                font-size: 11px;
-                font-weight: lighter;
+                font-size: 12px;
+                font-weight: 300;
                 margin: 0;
                 cursor: pointer;
+                color: #777777;
             }
         }
     }

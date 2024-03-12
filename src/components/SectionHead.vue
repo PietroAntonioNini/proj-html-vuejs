@@ -25,7 +25,7 @@ export default {
             <img src="/public/img/MasterStudy_logo.png" alt="Logo">
         </div>
         <div id="menu-search">
-            <a href="#">CATEGORY</a>
+            <a href="#"><i class="fa-solid fa-bars"></i> CATEGORY</a>
             <div class="input-group bg-white d-flex align-center">
                 <input type="text" class="form-control rounded-0 my_input" placeholder="Search courses" aria-label="Username" aria-describedby="basic-addon1">
                 <span class="input-group-text rounded-0" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
@@ -37,7 +37,7 @@ export default {
         </div>
         <div id="buttons">
             <a href="#"><i class="fa-regular fa-user my-icon"></i> Log in</a>
-            <button>SIGN UP</button>
+            <button>Sign up</button>
             <i class="fa-regular fa-bookmark fs-4"></i>
         </div>
     </div>
@@ -45,14 +45,15 @@ export default {
     <SectionHeadItems></SectionHeadItems>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @use '../styles/variables' as *;
+@use '../styles/mixins' as *;
 
 #container-line {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 140px;
+    gap: 100px;
     padding: $container;
 
     font-size: 12px;
@@ -80,8 +81,21 @@ export default {
         flex-grow: 1;
         gap: 10px;
         
+        a {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 14px;
+            margin-right: 20px;
+
+            i {
+                color: #777777;
+            }
+        }
+
         .my_input {
-            font-size: 12px;
+            padding: 10px;
+            font-size: 14px;
         }
 
         span {
@@ -89,29 +103,25 @@ export default {
             border:1px solid $secondColor;
 
             i {
-                font-size: 12px;
+                font-size: 14px;
                 color: $thirdColor;
             }
         }
     }
     #actions {
         display: flex;
-        gap: 20px;
+        gap: 22px;
+        font-size: 14px;
     }
     #buttons {
         display: flex;
         align-items: center;
-        gap: 20px;
+        gap: 22px;
         cursor: pointer;
+        font-size: 14px;
 
         button {
-            padding: 12px 25px;
-
-            font-size: 14px;
-            font-weight: bold;
-            border: 0;
-            border-radius: 25px;
-            background-color: $secondColor;
+            @include buttons;
         }
     }
 }

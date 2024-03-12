@@ -1,0 +1,11 @@
+@use './variables' as *;
+
+@mixin buttons {
+    padding: 14px 25px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 25px;
+    background-color: $secondColor;
+}
