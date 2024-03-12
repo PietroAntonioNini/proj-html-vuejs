@@ -1,10 +1,9 @@
 <script>
 import { store } from '../store';
-import SectionHead from './SectionHead.vue';
 
 export default {
 
-    name: 'AppMain',
+    name: 'SectionHeadItems',
 
     data() {
         return {
@@ -12,17 +11,14 @@ export default {
         }
     },
 
-    components: {
-        SectionHead,
-    },
-
 }
 </script>
 
 <template>
-    <SectionHead></SectionHead>
+    a
 </template>
 
 <style lang="scss">
+@use '../styles/variables' as *;
 
-</style>./SectionHeadItems.vue
+</style>

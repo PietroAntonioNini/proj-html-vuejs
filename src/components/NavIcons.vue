@@ -24,5 +24,6 @@ export default {
     .icon {
         display: flex;
         gap: 15px;
+        cursor: pointer;
     }
 </style>

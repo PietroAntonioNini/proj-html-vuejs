@@ -55,6 +55,7 @@ nav {
         border: 0;
         color: #777777;
         font-size: 11px;
+        cursor: pointer;
         background-color: $thirdColor;
     }
 
@@ -71,6 +72,8 @@ nav {
             h2 {
                 font-size: 11px;
                 font-weight: lighter;
+                margin: 0;
+                cursor: pointer;
             }
         }
     }
