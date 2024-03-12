@@ -37,7 +37,7 @@ export default {
   </nav>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @use '../styles/variables' as *;
 
 nav {
@@ -68,13 +68,20 @@ nav {
             display: flex;
             gap: 30px;
             margin-right: 20px;
+            transition: 0.5s;
             
             h2 {
                 font-size: 12px;
                 font-weight: 300;
                 margin: 0;
                 cursor: pointer;
+                transition: 0.5s;
                 color: #777777;
+
+                &:hover {
+                    transform: scale(1.2);
+                    color: $secondColor;
+                }
             }
         }
     }

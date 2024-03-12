@@ -122,6 +122,14 @@ export default {
         button {
             @include buttons;
         }
+
+        .fa-bookmark {
+            transition: 0.5s;
+            
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
     }
 }
 

@@ -54,7 +54,9 @@ export default {
 
                 <div class="col">
                     <div class="card h-100">
-                        <img src="/public/img/cat_2-272x161.jpg" class="card-img-top" alt="">
+                        <img src="/public/img/cat_2-272x161.jpg" class="card-img-top position-relative" alt="">
+                        <span class="badge new">NEW</span>
+                        <span class="featured">FEATURED</span>
 
                         <div class="card-body">
                             <span class="category">Art ></span>
@@ -72,6 +74,7 @@ export default {
                 <div class="col">
                     <div class="card h-100">
                         <img src="/public/img/course-preview-272x161.jpg" class="card-img-top" alt="">
+                        <span class="badge text-bg-danger">HOT</span>
 
                         <div class="card-body">
                             <span class="category">Software Development ></span>
@@ -95,6 +98,7 @@ export default {
                 <div class="col">
                     <div class="card h-100">
                         <img src="/public/img/photo-1496307042754-b4aa456c4a2d-272x161.jpeg" class="card-img-top" alt="">
+                        <span class="badge special">SPECIAL</span>
 
                         <div class="card-body">
                             <span class="category">Electronic ></span>
@@ -200,6 +204,7 @@ export default {
                 <div class="col">
                     <div class="card h-100">
                         <img src="/public/img/12345-1-272x161.png" class="card-img-top" alt="">
+                        <span class="badge special">SPECIAL</span>
 
                         <div class="card-body">
                             <span class="category">Nvidia ></span>
@@ -223,6 +228,7 @@ export default {
                 <div class="col">
                     <div class="card h-100">
                         <img src="/public/img/jakob-owens-198234-unsplash-min-1-272x161.png" class="card-img-top" alt="">
+                        <span class="badge special">SPECIAL</span>
 
                         <div class="card-body">
                             <span class="category">Art ></span>
@@ -309,8 +315,36 @@ export default {
         }
     }
 
+    .badge {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+
+        &.new {
+            background-color: $fifthColor;
+        }
+
+        &.special {
+            background-color: $seventhColor;
+        }
+    }
+
+    .featured {
+        position: absolute;
+        top: 25px;
+        left: -30px;
+
+        padding: 3px 30px;
+
+        transform: rotate(-45deg);
+        font-size: 14px;
+        color: $thirdColor;
+        background-color: $seventhColor;
+    }
+
     .card {
         cursor: pointer;
+        overflow: hidden;
         transition: 0.5s;
 
         &:hover {

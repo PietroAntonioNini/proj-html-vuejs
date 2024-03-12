@@ -242,13 +242,14 @@ export default {
 
 //sezione finale banner
 #banner {
-    max-width: 100vw;
+    width: 100vw;
     display: flex;
     align-items: center;
     padding: $sectionPadding;
 
     background-image: url(/public/img/Untitled-1-1-1-1-1.png);
     background-repeat: no-repeat;
+    background-size: cover;
 
     .text {
         max-width: 620px;
