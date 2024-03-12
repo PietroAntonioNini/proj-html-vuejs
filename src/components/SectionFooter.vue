@@ -200,8 +200,9 @@ export default {
             &:hover {
                 transform: scale(1.1);
                 cursor: pointer;
-                color: #9d9b9b;
+                color: $thirdColor;
                 border: 0.5px solid #9d9b9b;
+                background-color: #447991;
             }
         }
     }

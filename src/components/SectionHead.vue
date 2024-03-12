@@ -55,8 +55,15 @@ export default {
     align-items: center;
     gap: 100px;
     padding: $navContainer;
+    z-index: 1;
+
+    position: fixed;
+    top: 65px;
+    left: 0;
+    right: 0;
 
     font-size: 12px;
+    background-color: $thirdColor;
 
     a {
         text-decoration: none;

@@ -16,6 +16,23 @@
     }
 }
 
+@mixin buttons-3 {
+    padding: 14px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 25px;
+    background-color: $secondColor;
+    cursor: pointer;
+    transition: 0.5s;
+
+    &:hover {
+        transform: scale(1.1);
+        background-color: $fifthColor;
+    }
+}
+
 @mixin titles {
     font-size: 60px;
     font-weight: 200;

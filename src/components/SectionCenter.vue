@@ -19,7 +19,7 @@ export default {
 </script>
 
 <template>
-    <div id="container-center" class="position-relative">
+    <div id="container-center">
         <div id="head">
             <h2>Recent courses</h2>
 
@@ -329,9 +329,12 @@ export default {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        z-index: 1;
 
-        position: absolute;
-        bottom: 40px;
+        transform: translateY(50%);
+
+        position: fixed;
+        bottom: 50%;
         right: 4px;
 
         padding: 10px;
@@ -341,11 +344,7 @@ export default {
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
         box-shadow: 0 10px 15px rgba(0, 0, 0, 0.299);
-        transition: 0.5s;
-
-        &:hover {
-            transform: scale(1.1);
-        }
+        background-color: $thirdColor;
 
         i {
             padding: 10px;

@@ -16,118 +16,118 @@ export default {
 
 <template>
     <div id="start">
-        <div class="text">
-            <h1>Start Investing in You</h1>
-            <p>With over 1200 courses in 18 subjects, you're guaranteed to find something that's right for you.</p>
-            <button>Join for Free</button>
-        </div>
-
-        <div id="imgs">
-            <img src="/public/img/base.png" alt="">
-
-            <img class="img-1" src="/public/img/book1.png" alt="">
-            <img class="img-2" src="/public/img/book2.png" alt="">
-            <img class="img-3" src="/public/img/bubblespeech.png" alt="">
-            <img class="img-4" src="/public/img/magnifier.png" alt="">
-        </div>
+            <div class="text">
+                <h1>Start Investing in You</h1>
+                <p>With over 1200 courses in 18 subjects, you're guaranteed to find something that's right for you.</p>
+                <button>Join for Free</button>
+            </div>
+    
+            <div id="imgs">
+                <img src="/public/img/base.png" alt="">
+    
+                <img class="img-1" src="/public/img/book1.png" alt="">
+                <img class="img-2" src="/public/img/book2.png" alt="">
+                <img class="img-3" src="/public/img/bubblespeech.png" alt="">
+                <img class="img-4" src="/public/img/magnifier.png" alt="">
+            </div>
     </div>
 
     <div id="container-body">
-    
-        <div id="cards">
-            <div class="card-1">
-                <i class="fa-solid fa-earth-europe"></i>
-                <h2>Worldwide Recognize</h2>
-                <p>Our online course certificates can be used around the world and also in most popular universities and companies.</p>
-            </div>
-
-            <div class="card-2">
-                <i class="fa-solid fa-display"></i>
-                <h2>Mostly Online Learning (sd)</h2>
-                <p>Masterstudy online certificates can be obtained in a range of specialized areas and typically take about a year to complete.</p>
-            </div>
-
-            <div class="card-3">
-                <i class="fa-regular fa-calendar-check"></i>
-                <h2>Graduate in as little as 1 Year</h2>
-                <p>Online post-graduate certificates are a popular way to develop your professional qualifications of Masterstudy.</p>
-            </div>
-        </div>
-    
-        <div id="courses-grid">
-            <div class="row d-flex flex-column">
-                <div class="col">
-                    <div class="row mb-4">
-                        <div class="col-8">
-                            <img class="card-img-top mb-3" src="/public/img/cat_1-770x375.jpg" alt="Large Image">
         
-                            <div class="card-body d-flex justify-content-between">
-                                <h5 class="card-title">Software Development</h5>
-                                <p class="card-text">5 Courses</p>
-                            </div>
-                        </div>
-                        
-                        <div class="col-4">
-                            <div class="row d-flex g-4">
-                                <div class="col-12 mb-1">
-                                    <img class="card-img-top mb-3" src="/public/img/cat_2-370x155.jpg" alt="Large Image">
+            <div id="cards">
+                <div class="card border-0">
+                    <i class="fa-solid fa-earth-europe"></i>
+                    <h2>Worldwide Recognize</h2>
+                    <p>Our online course certificates can be used around the world and also in most popular universities and companies.</p>
+                </div>
+    
+                <div class="card border-0">
+                    <i class="fa-solid fa-display"></i>
+                    <h2>Mostly Online Learning (sd)</h2>
+                    <p>Masterstudy online certificates can be obtained in a range of specialized areas and typically take about a year to complete.</p>
+                </div>
+    
+                <div class="card border-0">
+                    <i class="fa-regular fa-calendar-check"></i>
+                    <h2>Graduate in as little as 1 Year</h2>
+                    <p>Online post-graduate certificates are a popular way to develop your professional qualifications of Masterstudy.</p>
+                </div>
+            </div>
         
-                                    <div class="card-body d-flex justify-content-between">
-                                        <h5 class="card-title">Art</h5>
-                                        <p class="card-text">8 Courses</p>
-                                    </div>
+            <div id="courses-grid">
+                <div class="row d-flex flex-column">
+                    <div class="col">
+                        <div class="row mb-4">
+                            <div class="col-8">
+                                <img class="card-img-top mb-3" src="/public/img/cat_1-770x375.jpg" alt="Large Image">
+            
+                                <div class="card-body d-flex justify-content-between">
+                                    <h5 class="card-title">Software Development</h5>
+                                    <p class="card-text">5 Courses</p>
                                 </div>
-        
-                                <div class="col-12">
-                                    <img class="card-img-top mb-3" src="/public/img/cat_3-370x155.jpg" alt="Large Image">
-        
-                                    <div class="card-body d-flex justify-content-between">
-                                        <h5 class="card-title">Material Design</h5>
-                                        <p class="card-text">5 Courses</p>
+                            </div>
+                            
+                            <div class="col-4">
+                                <div class="row d-flex g-4">
+                                    <div class="col-12 mb-1">
+                                        <img class="card-img-top mb-3" src="/public/img/cat_2-370x155.jpg" alt="Large Image">
+            
+                                        <div class="card-body d-flex justify-content-between">
+                                            <h5 class="card-title">Art</h5>
+                                            <p class="card-text">8 Courses</p>
+                                        </div>
+                                    </div>
+            
+                                    <div class="col-12">
+                                        <img class="card-img-top mb-3" src="/public/img/cat_3-370x155.jpg" alt="Large Image">
+            
+                                        <div class="card-body d-flex justify-content-between">
+                                            <h5 class="card-title">Material Design</h5>
+                                            <p class="card-text">5 Courses</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-    
-                <div class="col">
-                    <div class="row g-4">
-                        <div class="col">
-                            <img class="card-img-top mb-3" src="/public/img/cat_4-370x155.jpg" alt="Large Image">
-                            <div class="card-body d-flex justify-content-between">
-                                <h5 class="card-title">Music</h5>
-                                <p class="card-text">5 Courses</p>
+        
+                    <div class="col">
+                        <div class="row g-4">
+                            <div class="col">
+                                <img class="card-img-top mb-3" src="/public/img/cat_4-370x155.jpg" alt="Large Image">
+                                <div class="card-body d-flex justify-content-between">
+                                    <h5 class="card-title">Music</h5>
+                                    <p class="card-text">5 Courses</p>
+                                </div>
                             </div>
-                        </div>
-    
-                        <div class="col">
-                            <img class="card-img-top mb-3" src="/public/img/cat_5-370x155.jpg" alt="Large Image">
-                            <div class="card-body d-flex justify-content-between">
-                                <h5 class="card-title">Exercise</h5>
-                                <p class="card-text">7 Courses</p>
+        
+                            <div class="col">
+                                <img class="card-img-top mb-3" src="/public/img/cat_5-370x155.jpg" alt="Large Image">
+                                <div class="card-body d-flex justify-content-between">
+                                    <h5 class="card-title">Exercise</h5>
+                                    <p class="card-text">7 Courses</p>
+                                </div>
                             </div>
-                        </div>
-    
-                        <div class="col">
-                            <img class="card-img-top mb-3" src="/public/img/cat_6-370x155.jpg" alt="Large Image">
-                            <div class="card-body d-flex justify-content-between">
-                                <h5 class="card-title">Photography</h5>
-                                <p class="card-text">4 Courses</p>
+        
+                            <div class="col">
+                                <img class="card-img-top mb-3" src="/public/img/cat_6-370x155.jpg" alt="Large Image">
+                                <div class="card-body d-flex justify-content-between">
+                                    <h5 class="card-title">Photography</h5>
+                                    <p class="card-text">4 Courses</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </div>
 
     <div id="banner">
-        <div class="text">
-            <h2>Limitless lerning, more possibilities</h2>
-            <p>Online courses open the opportunity for learning to almost anyone, regardless of their scheduling commitments.</p>
-            <button>Read more</button>
-        </div>
+            <div class="text">
+                <h2>Limitless lerning, more possibilities</h2>
+                <p>Online courses open the opportunity for learning to almost anyone, regardless of their scheduling commitments.</p>
+                <button>Read more</button>
+            </div>
     </div>
 </template>
 
@@ -135,6 +135,7 @@ export default {
 @use '../styles/variables' as *;
 @use '../styles/mixins' as *;
 
+    
 //sezione in cima con l'immagine grande
 #start {
     max-width: 1500px;
@@ -144,6 +145,7 @@ export default {
     padding: 75px 0;
     padding-left: 115px;
     margin: auto;
+    margin-top: 135px;
 
     .text {
         max-width: 620px;
@@ -203,13 +205,18 @@ export default {
         display: flex;
         gap: 20px;
 
-        .card-1, .card-2, .card-3 {
+        .card {
             width: calc(100% / 3 - 20px / 3 * 2);
             display: flex;
             flex-direction: column;
             gap: 20px;
             padding: 35px;
             background-color: #F2F6FB;
+            transition: 0.5s;
+            &:hover {
+                transform: translateY(-10%);
+                background-color: #F2F6FC;
+            }
 
             i {
                 font-size: 60px;

@@ -45,6 +45,12 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: $navContainer;
+    z-index: 1;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 
     border-bottom: 1px solid $fourthColor;
     color: #777777;

@@ -80,7 +80,7 @@ export default {
             }
 
             button {
-                @include buttons;
+                @include buttons-3;
             }
         }
     }
