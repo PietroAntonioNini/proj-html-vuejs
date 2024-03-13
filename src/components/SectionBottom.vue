@@ -1,10 +1,10 @@
 <script>
 import { store } from '../store';
-import FooterCards from './FooterCards.vue'
+import SectionBottomItems from './SectionBottomItems.vue'
 
 export default {
 
-    name: 'SectionFooter',
+    name: 'SectionBottom',
 
     data() {
         return {
@@ -13,7 +13,7 @@ export default {
     },
 
     components: {
-        FooterCards,
+        SectionBottomItems,
     },
 
 }
@@ -151,7 +151,7 @@ export default {
         </div>
     </div>
 
-    <FooterCards></FooterCards>
+    <SectionBottomItems></SectionBottomItems>
 </template>
 
 <style lang="scss" scoped>
@@ -207,4 +207,4 @@ export default {
         }
     }
 }
-</style>
+</style>./SectionBottomtems.vue

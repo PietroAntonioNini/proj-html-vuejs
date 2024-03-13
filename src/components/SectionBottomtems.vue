@@ -3,7 +3,7 @@ import { store } from '../store';
 
 export default {
 
-    name: 'FooterCards',
+    name: 'SectionBottomItems',
 
     data() {
         return {

@@ -2,7 +2,7 @@
 import { store } from '../store';
 import SectionHead from './SectionHead.vue';
 import SectionCenter from './SectionCenter.vue'
-import SectionFooter from './SectionFooter.vue'
+import SectionBottom from './SectionBottom.vue'
 
 export default {
 
@@ -17,7 +17,7 @@ export default {
     components: {
         SectionHead,
         SectionCenter,
-        SectionFooter,
+        SectionBottom,
     },
 
 }
@@ -28,7 +28,7 @@ export default {
 
     <SectionCenter></SectionCenter>
 
-    <SectionFooter></SectionFooter>
+    <SectionBottom></SectionBottom>
 </template>
 
 <style lang="scss">
